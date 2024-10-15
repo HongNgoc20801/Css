@@ -1,0 +1,58 @@
+div{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border: 10px;
+    border-color: black;
+    border-style: dashed;
+}
+.box1{
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+    /* border-color: black; */
+    margin: 20%;
+    /* border-style: solid; */
+    padding:20px;
+    position: sticky;
+    top: 100px;
+    left:50px;
+    z-index: 1;
+}
+.box1:hover{
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+
+}
+.box2{
+    background-color:yellow;
+    width: 400px;
+    height: 140px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.box2:hover{
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+
+}
+
+.box3{
+    background-color: red;
+    width: 150px;
+    height: 250px;
+    margin: 20px 50px 70px 0px;
+    padding: 30px;
+    display: inline;
+    z-index: 1;
+}
+footer{
+    position: absolute;
+    bottom:0;
+    left:0;
+}
